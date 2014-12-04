@@ -1,0 +1,27 @@
+.navbar {
+    margin: 0;
+    border: 0;
+}
+
+html,body{height:100%;}
+.carousel,.item,.active{height:auto;}
+.carousel-inner{height:auto;}
+.fill{width:100%;height:auto;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+body { padding-top: 50px; }
