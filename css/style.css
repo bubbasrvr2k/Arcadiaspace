@@ -78,10 +78,27 @@ body { padding-top: 40px; }
  background-color: #000000;   
 }
 
+#about-text div {
+    padding-top:5px;
+}  
+
 #about p, h1, h2, h3, li {
     color: #ffffff;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left:5px;
+    padding-top:5px;
+}
+
+#about h1 {
+    
+}
+
+
+
+#partner-logos a {
+}
+
+#officer-photos p {
+
 }
 
 #about .divider {
