@@ -70,13 +70,18 @@ body { padding-top: 40px; }
 }
 
 #about {
-    display:inline-block;
-    background-color: #000000;
+  display:inline-block;
+  background-color: #000000;
+  background: -webkit-linear-gradient(black, black, gray); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, black, gray); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(black, black, gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, black, gray); /* Standard syntax */
 }
 
-#about .panel {
- background-color: #000000;   
+.about-text {
+    margin: 2em;
 }
+
 
 #about-text div {
     padding-top:5px;
@@ -102,5 +107,5 @@ body { padding-top: 40px; }
 }
 
 #about .divider {
-    background-color: #4169E1;
+    background-color: gray;
 }
