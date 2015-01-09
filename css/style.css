@@ -34,7 +34,7 @@ html,body{height:100%;}
 body { padding-top: 40px; }
 
 #landing {
-    padding-top: 50px;
+    margin-top: 60px;
 }
 
 #landing img{
@@ -70,7 +70,6 @@ body { padding-top: 40px; }
 }
 
 #about {
-  display:inline-block;
   background-color: #000000;
   background: -webkit-linear-gradient(black, black, gray); /* Safari 5.1 to 6.0 */
   background: -o-linear-gradient(black, black, gray); /* For Opera 11.6 to 12.0 */
@@ -102,10 +101,21 @@ body { padding-top: 40px; }
 #partner-logos a {
 }
 
-#officer-photos p {
+#officer-photos, p {
+    text-align:center;
 
 }
 
-#about .divider {
+#officer-photos, img {
+    display:block;
+    margin:auto;
+}
+
+#about-divider {
     background-color: gray;
+    height:20px;
+}
+
+#about-divider, .arrow-down {
+
 }
