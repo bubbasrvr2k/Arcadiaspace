@@ -71,51 +71,73 @@ body { padding-top: 40px; }
 
 #about {
   background-color: #000000;
-  background: -webkit-linear-gradient(black, black, gray); /* Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(black, black, gray); /* For Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient(black, black, gray); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(black, black, gray); /* Standard syntax */
 }
 
 .about-text {
-    margin: 2em;
+    padding-top: 1em;
 }
 
-
-#about-text div {
-    padding-top:5px;
-}  
-
-#about p, h1, h2, h3, li {
+.about-text p, h1, h2, h3, li {
     color: #ffffff;
-    padding-left:5px;
-    padding-top:5px;
-}
+ }
 
-#about h1 {
-    
-}
-
-
-
-#partner-logos a {
-}
-
-#officer-photos, p {
+ .about-text h1 {
     text-align:center;
+ }
 
+.about-text p {
+    font-size:16px;
+    padding-left: 2em;
 }
 
-#officer-photos, img {
+#double {
+    padding: 0 0.4em;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: inside disc;
+}
+
+#double > li {
+    padding-left: 4em;
+    text-indent: -1em;
+}
+
+.officer-photos {
+    margin-top:5%;
+    margin-bottom:40px;
+}
+
+.officer-photos h2 {
+    padding-left: 1em;
+    padding-bottom:1em;
+}
+
+.officer-photos > div > p {
+    text-align:center;
+    padding-top: 1em;
+    color: #ffffff;
+}
+
+.officer-photos a {
+    text-decoration: none;
+}
+
+.officer-photos > div > a > img {
     display:block;
     margin:auto;
 }
 
 #about-divider {
-    background-color: gray;
-    height:20px;
+    background-color: #ffffff;
 }
 
-#about-divider, .arrow-down {
-
+#about-divider > .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
 }
