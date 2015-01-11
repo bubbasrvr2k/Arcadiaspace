@@ -6,6 +6,8 @@
         <title>Arcadia | Home</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
         <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -28,119 +30,97 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav">
-                    <li class="active>"><a href="#about">About Us</a></li>
+                    <li class="active>"><a href="#about-link">About Us</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
                 </ul>
         </div>
         </div>
 </nav>
 
-<div id="landing" background-color: lightgray; margin-left: 5%; margin-right: 5%; style="text-allign: center">
+<div id="landing">
   <div>
     
       <img src="img/Arcadia_logo1.jpg" alt="Arcadia Logo">
       <center><p class="lead">Engineering the future of air and land vehicles.</p></center>
 
   </div>
+
+
 </div>
 
+<a name="about-link"></a>
 <div class="divider">
 	<div class="arrow-down">
 	</div>
 </div>
+
 
 <div id="about" class="container-fluid">
-		<div class="row" id="about-text">
-			
-			<div class="col-md-4 col-xs-12"> <h1> Our Mission</h1>
+	<div class="row">			
+			<div class="col-md-6 col-lg-6 about-text"> <h1> Our Mission</h1>
 			<p> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt." </p> </div>
-		
-			<div class="col-md-4 col-xs-12"> <h1>Assets</h1>
+
+	
+			<div class="col-md-6 col-lg-6 about-text"> <h1 id="assets">Assets</h1>
 				<p> We do the following: </p>
-				<ul>
-					<li> Kick ass </li>
-					<li> Take Names </li>
-					<li> Other stuff </li>
-					<li> Destroying planets </li>
+				<ul id="double">
+					<li>Kick ass</li>
+					<li>Take Names</li>
+					<li>Other stuff</li>
+					<li>Destroying planets</li>
+					<li>Rapid prototyping</li>
+					<li>Physical Simulations</li>
+					<li>Metalworking</li>
+					<li>Control Systems</li>
 				</ul>
 			</div>
-		
-			<div class="col-md-4 col-xs-12"> <h1>Partnerships</h1>
-				<div id="partner-logos">
-				<div class="col-md-6 col-xs-2"><a href="#" > <img src="img/gimp.png" alt="..."> </a></div>
-    		<div class="col-md-6 col-xs-2"><a href="#" > <img src="img/gimp.png" alt="..."> </a></div>
-     		<div class="col-md-6 col-xs-2"><a href="#" > <img src="img/gimp.png" alt="..."> </a></div>
-    		<div class="col-md-6 col-xs-2"><a href="#" > <img src="img/gimp.png" alt="..."> </a></div>
-				</div>
-			</div>
 	</div>
-
-			<h3>Officers</h3>
-			<div class="row officer-photos">
-  			<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..." class="img-rounded"></a></div>
-  			<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..."></a></div>
- 				<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..."></a></div>
- 				<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..."></a></div>
-			</div>
+	
+	<div class="row officer-photos">
+		<h2>Officers</h2>
+		<div class="col-xs-6 col-md-3">
+			<a href="#"><img src="img/cat.jpg" alt="..." class="img-circle"></a>
+			<p>HI<br>
+			<i>Director of Engineering</i></p>
 		</div>
+		<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..." class="img-circle"></a><p>I'm a cat!<br><i>President of Cats</i></p></div>
+		<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..." class="img-circle"></a><p>Still a cat!<br><i>Overlord of Kittehs</i></p></div>
+		<div class="col-xs-6 col-md-3"><a href="#"><img src="img/cat.jpg" alt="..." class="img-circle"></a><p>Also a cat!<br><i>King of Felines</i></p></div>
+	</div>
 </div>
 
-
-<div class="divider">
+<a name="projects"></a>
+<div class="divider" id="projects-divider">
 	<div class="arrow-down">
 	</div>
 </div>
 
-</div>
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/cat-meme-pic.jpg" width="100%" height="100%" alt="...">
-      <div class="carousel-caption">
-        <h1>blahblahblah</h>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/cat-meme-pic.jpg" width="100%" height="100%" alt="...">
-       <div class="carousel-caption">
-        <H1>title</H1>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</h>
-
-<div id="projects"; background-color: ghostwhite; margin-left: 5%; margin-right: 5%; style="text-allign: center">
-  <H1><center>Projects:</h></center><br>
+<div id="projects-info" class="container-fluid">
+<h1>Projects</h1> 
 Current Project: <a href="14-15/project/fsae.html"><h4>FSAE competition</a><br>
-<h3>Past Projects</h3>
-  </div>
+</div>
 
-  <div id="contact"; margin-left: 5%; margin-right: 5%; style="text-allign: center">
-    <center><h1>Contact us: </h1><br>Comments and suggestions are welcome.</center><br>
-    code for form submission goes here
-  </div>
-</body>
-</html>
+<a name="contact-us"></a>
+<div class="divider" id="projects-divider">
+	<div class="arrow-down">
+	</div>
+</div>
+
+<div class="container-fluid" id="contact-info">
+<h1>Our Office</h1>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3346.736730543254!2d-96.74593000000002!3d32.984347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21ff895e4aa5%3A0xd9098b32e9aa1331!2sThe+University+of+Texas+at+Dallas!5e0!3m2!1sen!2sus!4v1420939630701" width="400" height="300" frameborder="0" style="border:0"></iframe>
+
+<address> 
+	<strong>Arcadia, Inc.</strong><br>
+	1257 Blahblah Street, Suite 170<br>
+	Richardson, TX 75083<br>
+	<abbr title="Phone">P:</abbr><tel>125-156-1616</tel>
+</address>
+<address>
+  <strong>Daniel Casper</strong><br>
+  <a href="mailto:#">daniel.casper@arcadia.com</a>
+</address>
+</div>
+

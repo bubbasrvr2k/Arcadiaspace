@@ -34,10 +34,10 @@ html,body{height:100%;}
 body { padding-top: 40px; }
 
 #landing {
-    padding-top: 50px;
+    margin-top: 60px;
 }
 
-#landing img{
+#landing img {
     width:300px;
     height:375px;
     margin-right: auto;
@@ -70,37 +70,95 @@ body { padding-top: 40px; }
 }
 
 #about {
-    display:inline-block;
-    background-color: #000000;
+  background-color: #000000;
 }
 
-#about .panel {
- background-color: #000000;   
+.about-text {
+    padding-top: 1em;
 }
 
-#about-text div {
-    padding-top:5px;
-}  
-
-#about p, h1, h2, h3, li {
+.about-text p, h1, h2, h3, li {
     color: #ffffff;
-    padding-left:5px;
-    padding-top:5px;
+ }
+
+ .about-text h1 {
+    text-align:center;
+ }
+
+.about-text p {
+    font-size:16px;
+    padding-left: 2em;
 }
 
-#about h1 {
-    
+#double {
+    padding: 0 0.4em;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: inside disc;
 }
 
-
-
-#partner-logos a {
+#double > li {
+    padding-left: 4em;
+    text-indent: -1em;
 }
 
-#officer-photos p {
-
+.officer-photos {
+    margin-top:5%;
+    margin-bottom:40px;
 }
 
-#about .divider {
-    background-color: #4169E1;
+.officer-photos h2 {
+    padding-left: 1em;
+    padding-bottom:1em;
 }
+
+.officer-photos > div > p {
+    text-align:center;
+    padding-top: 1em;
+    color: #ffffff;
+}
+
+.officer-photos a {
+    text-decoration: none;
+}
+
+.officer-photos > div > a > img {
+    display:block;
+    margin:auto;
+}
+
+#projects-divider {
+    background-color: #ffffff;
+}
+
+#projects-divider > .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects-info > h1 {
+    color:black;
+    text-align:center;
+}
+
+#contact-info > h1 {
+    color: black;
+    text-align: center;
+}
+
+#contact-info > iframe {
+    padding-top: 20px;
+    display:block;
+    margin: 0 auto;
+}
+
+#contact-info > address {
+    text-align:center;
+    margin-top: 2em;
+ }
