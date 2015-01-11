@@ -37,7 +37,7 @@ body { padding-top: 40px; }
     margin-top: 60px;
 }
 
-#landing img{
+#landing img {
     width:300px;
     height:375px;
     margin-right: auto;
@@ -128,11 +128,11 @@ body { padding-top: 40px; }
     margin:auto;
 }
 
-#about-divider {
+#projects-divider {
     background-color: #ffffff;
 }
 
-#about-divider > .arrow-down {
+#projects-divider > .arrow-down {
     width: 0; 
     height: 0; 
     border-left: 20px solid transparent;
@@ -141,3 +141,24 @@ body { padding-top: 40px; }
     margin-left: auto;
     margin-right: auto;
 }
+
+#projects-info > h1 {
+    color:black;
+    text-align:center;
+}
+
+#contact-info > h1 {
+    color: black;
+    text-align: center;
+}
+
+#contact-info > iframe {
+    padding-top: 20px;
+    display:block;
+    margin: 0 auto;
+}
+
+#contact-info > address {
+    text-align:center;
+    margin-top: 2em;
+ }
