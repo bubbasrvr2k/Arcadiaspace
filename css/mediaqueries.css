@@ -6290,3 +6290,8 @@ button.close {
     padding-right: 75px;
   }
 }
+@media screen (min-width 768px) and (min-width: 991px) {
+  #autodesk {
+    display: none;
+  }
+}

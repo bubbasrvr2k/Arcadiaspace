@@ -77,7 +77,7 @@ body { padding-top: 40px; }
     padding-top: 1em;
 }
 
-.about-text p, h1, h2, h3, li {
+.about-text p, h1, h2, li {
     color: #ffffff;
  }
 
@@ -148,15 +148,49 @@ body { padding-top: 40px; }
 
 }
 
-#projects-info > h1 {
+#projects-info h1{
     color:black;
     text-align:center;
 }
+
+#projects-info h2 {
+    color:black;
+    padding-left:1em;
+    padding-top:2em;
+}
+
+#projects-info p {
+    padding-left:30px;
+    color:black;
+}
+
+#projects-info ul {
+   margin:0 auto;
+   display:block;
+}
+
+#projects-info li {
+    color:black;
+}
+
 
 #autodesk {
     width:430px; 
     height:500px; 
     border: medium none;
+    display:block;
+    margin:auto;
+}
+
+#autodesk-border {
+    border-style: solid;
+    border-color: gray;
+    display:inline-block;
+    margin-left:40px;
+}
+
+#FSAE-picture {
+    margin: auto;
     display:block;
 }
 
