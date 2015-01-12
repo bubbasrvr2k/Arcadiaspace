@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Arcadia | Home</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
-        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Arcadia | Home</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
 
 <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
@@ -97,20 +98,28 @@
 </div>
 
 <div id="projects-info" class="container-fluid">
-<h1>Projects</h1> 
-Current Project: <a href="14-15/project/fsae.html"><h4>FSAE competition</a><br>
+	<h1>FSAE Competition <small>Current Project</small></h1> 
+	<div class="row FSAE-content">
+		<div class="col-lg-6 col-md-6 FSAE-content">
+		<p class="lead"> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."</p>
+		</div>
+		<div class="col-lg-6 col-md-6 hidden-xs FSAE-content">
+		<iframe id="autodesk" scrolling="no" frameborder="0" hspace="0" src="https://360.autodesk.com/Public/Embed?hash=be253600ed6e4b4089526e8436478836" allowtransparency="true"></iframe>
+		</div>
+		<div class="xs-only"><img src="img/fsm.jpg"></div>
+	</div>
 </div>
 
 <a name="contact-us"></a>
-<div class="divider" id="projects-divider">
+<div class="divider" id="contacts-divider">
 	<div class="arrow-down">
 	</div>
 </div>
 
-<div class="container" id="contact-info">
+<div class="container-fluid" id="contact-info">
 <h1>Our Office</h1>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3346.736730543254!2d-96.74593000000002!3d32.984347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21ff895e4aa5%3A0xd9098b32e9aa1331!2sThe+University+of+Texas+at+Dallas!5e0!3m2!1sen!2sus!4v1420939630701" width="400" height="300" frameborder="0" style="border:0"></iframe>
+<iframe name="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3346.736730543254!2d-96.74593000000002!3d32.984347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c21ff895e4aa5%3A0xd9098b32e9aa1331!2sThe+University+of+Texas+at+Dallas!5e0!3m2!1sen!2sus!4v1420939630701" width="400" height="300" frameborder="0" style="border:0"></iframe>
 
 <address> 
 	<strong>Arcadia, Inc.</strong><br>
@@ -123,4 +132,5 @@ Current Project: <a href="14-15/project/fsae.html"><h4>FSAE competition</a><br>
   <a href="mailto:#">daniel.casper@arcadia.com</a>
 </address>
 </div>
-
+</body>
+</html>
