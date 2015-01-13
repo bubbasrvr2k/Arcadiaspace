@@ -77,7 +77,7 @@ body { padding-top: 40px; }
     padding-top: 1em;
 }
 
-.about-text p, h1, h2, h3, li {
+.about-text p, h1, h2, li {
     color: #ffffff;
  }
 
@@ -108,9 +108,10 @@ body { padding-top: 40px; }
     margin-bottom:40px;
 }
 
-.officer-photos h2 {
+.officer-photos > div > h2 {
     padding-left: 1em;
     padding-bottom:1em;
+    text-align:center;
 }
 
 .officer-photos > div > p {
@@ -129,7 +130,7 @@ body { padding-top: 40px; }
 }
 
 #projects-divider {
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #projects-divider > .arrow-down {
@@ -137,18 +138,83 @@ body { padding-top: 40px; }
     height: 0; 
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #000000;
+    border-top: 20px solid black;
     margin-left: auto;
     margin-right: auto;
 }
 
-#projects-info > h1 {
+#projects-info {
+    margin-bottom:20px;
+
+}
+
+#projects-info h1{
     color:black;
     text-align:center;
 }
 
+#projects-info h2 {
+    color:black;
+    padding-left:1em;
+    padding-top:2em;
+}
+
+#projects-info p {
+    padding-left:30px;
+    color:black;
+}
+
+#projects-info ul {
+   margin:0 auto;
+   display:block;
+}
+
+#projects-info li {
+    color:black;
+}
+
+
+#autodesk {
+    width:430px; 
+    height:500px; 
+    border: medium none;
+    display:block;
+    margin:auto;
+}
+
+#autodesk-border {
+    border-style: solid;
+    border-color: gray;
+    display:inline-block;
+    margin-left:40px;
+}
+
+#FSAE-picture {
+    margin: auto;
+    display:block;
+}
+
+#contacts-divider {
+    background-color:black;
+}
+
+#contacts-divider > .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-info {
+    background-color: black;
+    margin-bottom: 0;
+}
+
 #contact-info > h1 {
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -161,4 +227,6 @@ body { padding-top: 40px; }
 #contact-info > address {
     text-align:center;
     margin-top: 2em;
+    color:white;
  }
+
