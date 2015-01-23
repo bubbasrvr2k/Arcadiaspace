@@ -44,5 +44,5 @@ Temporary Items
 .apdisk
 
 #images
-*.jpg
-*.png
+#*.jpg
+#*.png
