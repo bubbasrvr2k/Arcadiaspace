@@ -164,6 +164,17 @@ body { padding-top: 40px; }
     color:black;
 }
 
+.sponsor-button {
+    padding-top:30px;
+    text-align: center;
+    padding-bottom:30px;
+}
+
+@media (max-width: 750px) {
+    #mobile-button { 
+        display: inline-block !important;
+    }
+}
 
 #autodesk {
     width:430px; 
@@ -182,6 +193,7 @@ body { padding-top: 40px; }
 
 #FSAE-picture {
     margin: auto;
+    margin-top:-15px;
     display:block;
 }
 
