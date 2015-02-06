@@ -6,7 +6,7 @@ To use:
 Install node and ruby. 
 
 Then, in command prompt from site's root directory, do:
-<b>gem install sass</b>
+<b>gem install sass</b><br>
 <b>npm install </b>
 
 Then type <b> gulp </b> in console from site's root directory. 
