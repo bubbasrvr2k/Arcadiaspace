@@ -34,7 +34,7 @@ gulp.task('scripts', function() {
 
 //Compress images
 gulp.task('compress', function(){
-    return gulp.src('img/*')
+    return gulp.src('img/**')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
