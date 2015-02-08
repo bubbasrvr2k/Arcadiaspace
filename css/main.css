@@ -3058,21 +3058,28 @@ body {
 #contact-info > iframe {
   padding-top: 20px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border: 0; }
 
 #contact-info > address {
   text-align: center;
   margin-top: 2em;
   color: white; }
 
-.webmaster > a {
-  align: center;
-  width: 50%; }
+@screen (max-width: 768px) {
+  #arcadia-logo {
+    width: 100%;
+    box-sizing: border-box; }
+
+  #map {
+    width: 100%; } }
 
 @media (min-width: 1200px) {
   #assets {
     padding-right: 75px; } }
 
-@screen (min-width 768px, min-width: 991px) {
+@screen (max-width: 991px) {
   #autodesk {
     display: none; } }
