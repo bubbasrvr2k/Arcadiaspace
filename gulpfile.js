@@ -9,7 +9,7 @@ var pngquant = require('imagemin-pngquant');
 
 // Compile Sass
 gulp.task('sass', function() {
-    return gulp.src('scss/*.scss')
+    return gulp.src('scss/**.scss')
         .pipe(sass())
         .pipe(gulp.dest('css'));
 });
@@ -46,7 +46,7 @@ gulp.task('compress', function(){
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('js/*.js', ['scripts']);
-    gulp.watch('scss/*.scss', ['sass']);
+    gulp.watch('scss/**/*.scss', ['sass']);
     gulp.watch('css/*.css', ['minify-css']);
     gulp.watch('img/*', ['compress']);
 });

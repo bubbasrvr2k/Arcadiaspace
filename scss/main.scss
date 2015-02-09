@@ -1,5 +1,6 @@
 @import "vendor/_bootstrap.scss";
 @import "vendor/bootstrap/_theme.scss";
+@import "pages/sponsors.scss";
 
 html,body{height:100%;}
 
@@ -117,7 +118,7 @@ body { padding-top: 40px; }
     text-decoration: none;
 }
 
-.officer-photos > div > a > img {
+.officer {
     display:block;
     margin:auto;
     max-width: 75%;
@@ -188,16 +189,11 @@ body { padding-top: 40px; }
     border: medium none;
     display:block;
     margin:auto;
-}
-
-#autodesk-border {
     border-style: solid;
     border-color: gray;
-    display:inline-block;
-    margin-left:40px;
 }
 
-#FSAE-picture {
+#frame {
     margin: auto;
     margin-top:-15px;
     display:block;
@@ -242,17 +238,18 @@ body { padding-top: 40px; }
     color:white;
  }
 
-@screen(max-width: 768px) {
+@media (max-width: 991px) {
+  #autodesk {
+    display: none;
+  }
+  
+  #map {
+    width:80% !important;
+ }
 
-    #arcadia-logo {
-        width:100%;
-        box-sizing: border-box;
-    }
-
-    #map {
-        width:100%;
-    }
-    
+  #frame {
+    width:80%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -261,8 +258,3 @@ body { padding-top: 40px; }
   }
 }
 
-@screen (max-width: 991px) {
-  #autodesk {
-    display: none;
-  }
-}

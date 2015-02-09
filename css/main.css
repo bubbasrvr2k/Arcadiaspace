@@ -2869,6 +2869,15 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1); }
 
+@media (max-width: 400px) {
+  #sponsors img {
+    width: 100%; }
+  #sponsors a img {
+    width: 100%; } }
+
+#sponsor-info center p {
+  padding-top: 20px; }
+
 html, body {
   height: 100%; }
 
@@ -2965,7 +2974,7 @@ body {
 .officer-photos a {
   text-decoration: none; }
 
-.officer-photos > div > a > img {
+.officer {
   display: block;
   margin: auto;
   max-width: 75%;
@@ -3022,15 +3031,11 @@ body {
   height: 500px;
   border: medium none;
   display: block;
-  margin: auto; }
-
-#autodesk-border {
+  margin: auto;
   border-style: solid;
-  border-color: gray;
-  display: inline-block;
-  margin-left: 40px; }
+  border-color: gray; }
 
-#FSAE-picture {
+#frame {
   margin: auto;
   margin-top: -15px;
   display: block; }
@@ -3068,18 +3073,14 @@ body {
   margin-top: 2em;
   color: white; }
 
-@screen (max-width: 768px) {
-  #arcadia-logo {
-    width: 100%;
-    box-sizing: border-box; }
-
+@media (max-width: 991px) {
+  #autodesk {
+    display: none; }
   #map {
-    width: 100%; } }
+    width: 80% !important; }
+  #frame {
+    width: 80%; } }
 
 @media (min-width: 1200px) {
   #assets {
     padding-right: 75px; } }
-
-@screen (max-width: 991px) {
-  #autodesk {
-    display: none; } }
