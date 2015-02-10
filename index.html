@@ -4,22 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Arcadia, Inc. is a student-organized engineering company in Dallas, TX."/>
+	<meta http-equiv="Cache-control" content="public" max-age="200000">
 	<title>Arcadia | Home</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+	<link rel="stylesheet" type="text/css" href="dist/main.min.css">
 	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="dist/all.min.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-
 <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
@@ -30,7 +26,6 @@
                 </button>
                 <a class="navbar-brand" href="#"><strong>Arcadia</strong></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav">
                     <li class="active>"><a href="#about-link">About Us</a></li>
@@ -44,13 +39,9 @@
 
 <div id="landing">
   <div>
-    
-      <img src="img/Arcadia_logo1.jpg" alt="Arcadia Logo">
+      <img id="arcadia-logo" src="dist/Arcadia_logo1.jpg" alt="Arcadia Logo">
       <center><p class="lead">Engineering the vehicles of the future.</p></center>
-
   </div>
-
-
 </div>
 
 <a name="about-link"></a>
@@ -59,14 +50,12 @@
 	</div>
 </div>
 
-
 <div id="about" class="container-fluid">
 	<div class="row">			
 			<div class="col-md-6 col-lg-6 about-text"> <h1> Our Mission</h1>
-			<p> "Arcadia is a non-profit corporation dedicated to bring young Engineers and Scientists together to learn and experience real life applications of the subjects learned at the university. This is why we measure each member’s capacity to work as a team and individual hard-skills. On the white comet project we decided to find the best scientists that UTD is brewing.<br>
-			It is expected from all members to be the most professional and proficient in their interests out of all other science related organizations on campus, but it is also imperative to pursue their studies with the best they can offer. This makes for a future scientist with vast knowledge and experience." </p> </div>
+				<p> "Arcadia is a non-profit corporation dedicated to bring young Engineers and Scientists together to learn and experience real life applications of the subjects learned at the university. This is why we measure each member’s capacity to work as a team and individual hard-skills. On the white comet project we decided to find the best scientists that UTD is brewing.<br><br>
+				It is expected from all members to be the most professional and proficient in their interests out of all other science related organizations on campus, but it is also imperative to pursue their studies with the best they can offer. This makes for a future scientist with vast knowledge and experience." </p> </div>
 
-	
 			<div class="col-md-6 col-lg-6 about-text"> <h1 id="assets">Assets</h1>
 				<p> We do the following: </p>
 				<ul id="double">
@@ -81,19 +70,13 @@
 				</ul>
 			</div>
 	</div>
-	
 	<div class="row officer-photos">
-		
 		<h2 id="officers">Officers</h2>
-		
 		<div class="col-xs-12 col-sm-6 col-md-3">
-			<a href="#"><img src="img/MarcoPic.jpg" alt="..." class="img-circle"></a>
-			<p>Marco Giardiello<br>
-			<i>Chief Executive Officer</i></p>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="img/JulianPic.jpg" alt="..." class="img-circle"></a><p>Julian De Las Salas<br><i>Chief Operations Officer</i></p></div>
-		<div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="img/JasonSpic.jpg" alt="..." class="img-circle"></a><p>Jason Szot<br><i>Chief Technology Officer</i></p></div>
-		<div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="img/TimBpic.jpg" alt="..." class="img-circle"></a><p>Tim Boykin<br><i>Chief Financial Officer</i></p></div>
+		<img src="dist/MarcoPic-G.png" alt="Marco Giardiello" class=" officer img-circle"><p>Marco Giardiello<br><i>Chief Executive Officer</i></p></div>
+		<div class="col-xs-12 col-sm-6 col-md-3"><img src="dist/JulianPic-G.png" alt="Julian De Las Salas" class="officer img-circle"><p>Julian De Las Salas<br><i>Chief Operations Officer</i></p></div>
+		<div class="col-xs-12 col-sm-6 col-md-3"><img src="dist/JasonSpic-G.png" alt="Jason Szot" class="officer img-circle"><p>Jason Szot<br><i>Chief Technology Officer</i></p></div>
+		<div class="col-xs-12 col-sm-6 col-md-3"><img src="dist/TimBpic-G.png" alt="Tim Boykin" class="officer img-circle"><p>Tim Boykin<br><i>Chief Financial Officer</i></p></div>
 	</div>
 </div>
 
@@ -120,17 +103,15 @@
 		</div>
 		</div>
 		<div class="col-lg-6 col-md-6 hidden-sm hidden-xs FSAE-content">
-		<div id="autodesk-border">
-		<iframe id="autodesk" class="visible-lg-* visible-md-*" scrolling="no" hspace="0" src="https://360.autodesk.com/Public/Embed?hash=51cee1d8a3d84a10af96627d5d83a1ea" allowtransparency="true"></iframe>
+		<img src="dist/frame.png" class="visible-lg-* visible-md-*" id="autodesk"><div class="caption"><center><h3>Formula One Frame</h3></center></div>
 		</div>
-		</div>
-		<div><img src="img/frame.png" class="visible-xs visible-sm" id="FSAE-picture">
+		<div><img src="dist/frame.png" class="visible-xs-1 visible-sm-1 hidden-md hidden-lg" id="frame">
 		</div>
 		<div class="sponsor-button">
 			<a href="sponsors.html" id="mobile-button" class="btn btn-primary btn-lg visible-xs visible-sm" role="button">Join our Sponsors!</a>
 		</div>
 	</div>
-	<a href="http://http://students.sae.org/cds/formulaseries/west/">Formula SAE® Series - Lincoln</a>
+	<a href="http://students.sae.org/cds/formulaseries/west/">Organized by: Formula SAE® Lincoln</a>
 </div>
 
 <a name="contact-us"></a>
@@ -142,7 +123,7 @@
 <div class="container-fluid" id="contact-info">
 <h1>Our Office</h1>
 
-<iframe name="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3339.021678114726!2d-96.757391!3d33.187301999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3e188782deab%3A0xd411161716fae476!2s10325+Bolivar+Dr%2C+McKinney%2C+TX+75070!5e0!3m2!1sen!2sus!4v1422044432233" width="400" height="300" style="border:0"></iframe>
+<iframe name="map" id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3339.021678114726!2d-96.757391!3d33.187301999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3e188782deab%3A0xd411161716fae476!2s10325+Bolivar+Dr%2C+McKinney%2C+TX+75070!5e0!3m2!1sen!2sus!4v1422044432233"></iframe>
 
 <address> 
 	<strong>Arcadia, Inc.</strong><br>
@@ -150,8 +131,8 @@
 	McKinney, TX 75070<br>
 	<abbr title="Phone">P: </abbr><tel>214-600-1564</tel>
 </address>
-<strong>Webmaster: Daniel Casper</strong><br>
-<a href="mailto:#">dc@danielcasper.com</a>
+<center><strong class="webmaster">Webmaster: Daniel Casper</strong></center>
+<center><a class="webmaster" href="mailto:#">dc@danielcasper.com</a></center>
 </div>
 </body>
 </html>
