@@ -2887,12 +2887,12 @@ body {
   text-align: center; }
 
 .officer-photos {
-  margin-top: 5%;
+  margin-top: 5px;
   margin-bottom: 40px; }
 
 .officer-photos > div > h2 {
   padding-left: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 30px;
   text-align: center; }
 
 .officer-photos > div > p {
@@ -2906,9 +2906,8 @@ body {
 .officer {
   display: block;
   margin: auto;
-  max-width: 75%;
-  max-height: 100%;
-  border: 0; }
+  width: 160px;
+  height: 160px; }
 
 #projects-divider {
   background-color: white; }
@@ -2932,7 +2931,7 @@ body {
 #projects-info h2 {
   color: black;
   padding-left: 1em;
-  padding-top: 2em; }
+  padding-top: 1em; }
 
 #projects-info p {
   margin-top: 1em;
@@ -2947,7 +2946,7 @@ body {
   color: black; }
 
 .sponsor-button {
-  padding-top: 30px;
+  padding-top: 40px;
   text-align: center;
   padding-bottom: 30px; }
 
@@ -2956,13 +2955,11 @@ body {
     display: inline-block !important; } }
 
 #autodesk {
-  width: 430px;
-  height: 500px;
-  border: medium none;
+  width: 75%;
+  height: 75%;
   display: block;
-  margin: auto;
-  border-style: solid;
-  border-color: gray; }
+  margin: 0 auto;
+  margin-top: 50px; }
 
 #frame {
   margin: auto;
@@ -3013,3 +3010,8 @@ body {
 @media (min-width: 1200px) {
   #assets {
     padding-right: 75px; } }
+
+@media (max-width: 768px) {
+  .officer {
+    width: 33%;
+    height: 33%; } }
